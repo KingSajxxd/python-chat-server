@@ -41,8 +41,15 @@ Follow these instructions to get the project running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <repository-folder>
+    For Linux, Mac
+
+    git clone git@github.com:KingSajxxd/python-chat-server.git
+    cd python-chat-server
+
+    For Windows
+
+    git clone https://github.com/KingSajxxd/python-chat-server.git
+    cd python-chat-server
     ```
 
 2.  **Build and run the container:**
@@ -55,7 +62,7 @@ Follow these instructions to get the project running on your local machine.
 3.  **Connect to the Application:**
     Once the container is running, the WebSocket server is accessible at `ws://localhost:8000`. You can connect to it using a WebSocket client like Postman.
     * **Connection URL:** `ws://localhost:8000/ws/{your_username}`
-    * Replace `{your_username}` with a name of your choice (e.g., `ws://localhost:8000/ws/Alice`).
+    * Replace `{your_username}` with a name of your choice (e.g., `ws://localhost:8000/ws/Anura`).
 
 4.  **Stopping the Application:**
     To stop the application, press `Ctrl + C` in the terminal where Docker Compose is running, and then run:
