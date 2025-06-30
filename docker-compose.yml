@@ -1,0 +1,13 @@
+services:
+
+  python-chat-server:
+    # build . tells docker to build the image from the current directory
+    build: .
+
+    # container name
+    container_name: python-chat-server
+
+    # map port 8000 to the host machine
+    ports:
+      - "8000:8000"
+
