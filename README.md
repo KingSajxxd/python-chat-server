@@ -73,8 +73,9 @@ Follow these instructions to get the project running on your local machine.
 ---
 
 ## Application Structure
-
+```bash
 ├── docker-compose.yml      # Orchestrates the backend service
 ├── Dockerfile              # Dockerfile for the Python backend
 ├── main.py                 # The FastAPI/WebSocket server code
 └── requirements.txt        # Python dependencies
+```
